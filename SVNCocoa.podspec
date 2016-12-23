@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SVNCocoa"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "fkglglfgflgflg SVNCocoa."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/VictorerW/SVNCocoa", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/VictorerW/SVNCocoa.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
