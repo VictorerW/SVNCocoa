@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SVNCocoa"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "fkglglfgflgflg SVNCocoa."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SVNCocoa/*.{h,m}"
+  s.source_files  = "SVNCocoa/*"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -122,7 +122,7 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
-   s.vendored_libraries = "SVNCocoa/libGeTuiSdk-1.5.3-noidfa.a", "SVNCocoa/libGtExtensionSdk-1.0.0.a"
+  # s.vendored_libraries = "SVNCocoa/libGeTuiSdk-1.5.3-noidfa.a", "SVNCocoa/libGtExtensionSdk-1.0.0.a"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
