@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
                    DESC
 
-   s.homepage     = "svn://172.16.1.10/privateios/SVNCocoa/"
+   s.homepage     = "https://github.com/VictorerW/SVNCocoa"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :svn => "svn://172.16.1.10/privateios/SVNCocoa/", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/VictorerW/SVNCocoa", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
