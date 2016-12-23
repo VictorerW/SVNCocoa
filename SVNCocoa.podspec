@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SVNCocoa"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "fkglglfgflgflg SVNCocoa."
 
   # This description is used to generate tags and improve search results.
@@ -122,7 +122,7 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
-   s.libraries = "libGeTuiSdk-1.5.3-noidfa.a", "libGtExtensionSdk-1.0.0.a"
+   s.vendored_libraries = "libGeTuiSdk-1.5.3-noidfa.a", "libGtExtensionSdk-1.0.0.a"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
