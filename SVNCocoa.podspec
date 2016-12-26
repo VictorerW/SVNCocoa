@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SVNCocoa"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "fkglglfgflgflg SVNCocoa."
 
   # This description is used to generate tags and improve search results.
@@ -123,10 +123,10 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
 
   # s.library   = "iconv"
   # s.libraries = "libGeTuiSdk-1.5.3-noidfa.1", "libGtExtensionSdk-1.0.0.2"
-  # s.vendored_libraries =  "libGeTuiSdk-1.5.3-npodfa.a",
+   s.vendored_libraries =  "libGeTuiSdk-1.5.3-noidfa.a",
 
 # s.preserve_paths = "libGeTuiSdk-1.5.3-noidfa.a"
-  s.ios.vendored_library = "libGeTuiSdk-1.5.3-noidfa.a"  
+#  s.ios.vendored_library = "libGeTuiSdk-1.5.3-noidfa.a"  
   
   s.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','CoreBluetooth','Security','JavaScriptCore'
   s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','CoreBluetooth','Security','JavaScriptCore'
