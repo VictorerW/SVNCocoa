@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SVNCocoa"
-  s.version      = "1.2.3"
+  s.version      = "1.2.4"
   s.summary      = "fkglglfgflgflg SVNCocoa."
 
   # This description is used to generate tags and improve search results.
@@ -92,9 +92,9 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = "SVNCocoa/*.{h,m}"
+   s.source_files  = "SVNCocoa/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
-  s.source_files  = "GeTuiSdk.h"
+  #s.source_files  = "GeTuiSdk.h"
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -123,10 +123,10 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
 
   # s.library   = "iconv"
   # s.libraries = "libGeTuiSdk-1.5.3-noidfa.1", "libGtExtensionSdk-1.0.0.2"
-   s.vendored_libraries =  "libGeTuiSdk-1.5.3-noidfa.a",
+  # s.vendored_libraries =  "libGeTuiSdk-1.5.3-noidfa.a","libGtExtensionSdk-1.0.0.2"
 
-# s.preserve_paths = "libGeTuiSdk-1.5.3-noidfa.a"
-#  s.ios.vendored_library = "libGeTuiSdk-1.5.3-noidfa.a"  
+  s.preserve_paths = "libGeTuiSdk-1.5.3-noidfa.a","libGtExtensionSdk-1.0.0.2"
+  s.ios.vendored_library = "libGeTuiSdk-1.5.3-noidfa.a","libGtExtensionSdk-1.0.0.2"  
   
   s.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','CoreBluetooth','Security','JavaScriptCore'
   s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','CoreBluetooth','Security','JavaScriptCore'
