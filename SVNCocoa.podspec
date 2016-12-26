@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SVNCocoa"
-  s.version      = "1.2.2"
+  s.version      = "1.2.3"
   s.summary      = "fkglglfgflgflg SVNCocoa."
 
   # This description is used to generate tags and improve search results.
@@ -92,9 +92,9 @@ dfkjsdjfkdsjfksdjkfjsldkfjsdlkjflsdkjfsdlkfjsdlkjfsd
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SVNCocoa/*.{h,m}"
+  # s.source_files  = "SVNCocoa/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
-
+  s.source_files  = "GeTuiSdk.h"
   # s.public_header_files = "Classes/**/*.h"
 
 
